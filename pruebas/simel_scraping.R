@@ -7,27 +7,22 @@ library(stringr)
 library(glue)
 library(RSelenium)
 library(readr)
+library(here)
 
 source("simel_funciones.R")
 
 # abrir server ----
-f_profile <- makeFirefoxProfile(list(browser.download.dir = "~/Documents/Trabajo/Osvaldo Anid Idea/simel/"
-                                     # browser.download.folderList = 2L,
-                                     # browser.download.manager.showWhenStarting = FALSE,
-                                     # browser.helperApps.neverAsk.saveToDisk="text/xml",
-                                     # browser.tabs.remote.autostart = FALSE,
-                                     # browser.tabs.remote.autostart.2 = FALSE,
-                                     # browser.tabs.remote.desktopbehavior = FALSE
-))
-
 driver <- rsDriver(port = 4566L, browser = "firefox", chromever = NULL, 
-                   extraCapabilities = f_profile)
+                   extraCapabilities = makeFirefoxProfile(list(browser.download.dir = here()))
+                   )
 
 remote_driver <- driver[["client"]]
 
 
 # entrar al sitio ----
 # página de resultados
+
+# Dimensiones Trabajo Decente: Oportunidades de empleo
 url <- "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7COportunidades%20de%20empleo%23OPORTUNIDADES_EMPLEO%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=100"
 
 remote_driver$navigate(url); esperar()
@@ -184,7 +179,7 @@ map(metadatos$id, \(id) {
   
   cronometro_iniciar()
   download.file(glue("https://sdmx.ine.gob.cl/rest/data/CL01,{id},1.0/all?&format=csvfilewithlabels"),
-                glue("datos/{tolower(id)}.csv")) |> try()
+                glue("datos/simel_{tolower(id)}.csv")) |> try()
   cronometro_esperar(5)
 })
 
