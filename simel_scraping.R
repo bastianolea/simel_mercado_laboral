@@ -17,17 +17,17 @@ categoria = "Oportunidades de empleo"
 categoria_id = "oportunidades_empleo"
 url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7COportunidades%20de%20empleo%23OPORTUNIDADES_EMPLEO%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=100"
 
-# categoria = "Igualdad de oportunidades y trato en el trabajo"
-# categoria_id = "igualdad_oportunidades"
-# url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7CIgualdad%20de%20oportunidades%20y%20trato%20en%20el%20trabajo%23IGUALDAD_OPORTUNIDADES%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=14"
+categoria = "Igualdad de oportunidades y trato en el trabajo"
+categoria_id = "igualdad_oportunidades"
+url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7CIgualdad%20de%20oportunidades%20y%20trato%20en%20el%20trabajo%23IGUALDAD_OPORTUNIDADES%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=14"
 
-# categoria = "Ingresos adecuados y trabajo productivo"
-# categoria_id = "ingreso_adecuado"
-# url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7CIngresos%20adecuados%20y%20%20trabajo%20productivo%23INGRESOS%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=71"
+categoria = "Ingresos adecuados y trabajo productivo"
+categoria_id = "ingreso_adecuado"
+url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7CIngresos%20adecuados%20y%20%20trabajo%20productivo%23INGRESOS%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=71"
 
-# categoria = "Estabilidad y seguridad del trabajo"
-# categoria_id = "estabilidad_seguridad"
-# url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7CEstabilidad%20y%20seguridad%20del%20trabajo%23ESTABILIDAD_SEGURIDAD%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=8"
+categoria = "Estabilidad y seguridad del trabajo"
+categoria_id = "estabilidad_seguridad"
+url = "https://de.ine.gob.cl/?fs[0]=Dimensiones%20Trabajo%20Decente%2C0%7CEstabilidad%20y%20seguridad%20del%20trabajo%23ESTABILIDAD_SEGURIDAD%23&pg=0&fc=Dimensiones%20Trabajo%20Decente&bp=true&snb=8"
 
 #—----
 
