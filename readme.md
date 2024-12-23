@@ -15,3 +15,9 @@ Este repositorio permite descargar los datos estadísticos de SIMEL con un solo 
 El script `simel_scraping.R` ejecuta un controlador de Selenium que utiliza Firefox para navegar por el sitio y obtener los datos. Retorna los datos en `csv` en la carpeta `datos/{categoria}/`, y los metadatos en la carpeta `metadatos`.
 
 No usa la API porque no entendí cómo usarla 🥲
+
+
+----
+
+1. cargar_datos.R: output: `resultados/simel_datos.parquet`
+2. explorar_datos.R
