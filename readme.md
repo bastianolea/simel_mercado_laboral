@@ -1,5 +1,5 @@
 
-# Scraping de datos del Sistema de Información del Mercado Laboral (SIMEL)
+# Datos del Sistema de Información del Mercado Laboral (Simel)
 
 
 ![](https://de.ine.gob.cl/assets/siscc/data-explorer/images/dotstat-data-simel-logo.png)
